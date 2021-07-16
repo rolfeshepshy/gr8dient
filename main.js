@@ -22,9 +22,14 @@ function onClick (event) {
     messageContainer.appendChild(message);
     messageContainer.style.marginBottom = "40px";
     numberOfClicks += 1;
-    message.innerHTML = "";
-    message.innerHTML = "Nice Cock " + "(" + numberOfClicks + ')';
-
+    if(numberOfClicks != 69){
+        message.innerHTML = "";
+        message.innerHTML = "Nice Cock " + "(" + numberOfClicks + ')';
+    } else{
+        message.innerHTML = "";
+        message.innerHTML = "Nice Cock " + "(" + numberOfClicks + ') ;) Nice.';
+    
+    }
 }
 
 loginButton.addEventListener("click", onClick);
