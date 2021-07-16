@@ -204,6 +204,7 @@ sup {
 a {
   color: #0d6efd;
   text-decoration: underline;
+  cursor: pointer;
 }
 a:hover {
   color: #0a58ca;
@@ -340,13 +341,14 @@ select:disabled {
   display: none;
 }
 
-}
+
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
 }
+
 
 ::-moz-focus-inner {
   padding: 0;
