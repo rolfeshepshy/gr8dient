@@ -1,0 +1,23 @@
+{
+  "name": "gr8dient",
+  "version": "1.0.0",
+  "description": "Future Hubb Website",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolfeshepshy/gr8dient.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolfeshepshy/gr8dient/issues"
+  },
+  "homepage": "https://github.com/rolfeshepshy/gr8dient#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
